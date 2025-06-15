@@ -1,0 +1,1 @@
+web: gunicorn --chdir placement_tracker app:app 

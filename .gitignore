@@ -1,0 +1,47 @@
+# Virtual Environment
+venv/
+*.env
+.venv/
+env/
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite Database
+*.db
+placement_tracker.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Deployment and Logs
+*.log
+.DS_Store
+.deployment/
+
+# Dependency directories
+node_modules/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Security
+secrets.txt
+*.key
+
+# Miscellaneous
+.tmp/
+.cache/
+
+# Heroku and other deployment files
+.env 

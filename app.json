@@ -1,0 +1,21 @@
+{
+    "name": "Placement Tracker",
+    "description": "A Kanban-style job application tracking web application",
+    "keywords": [
+        "python",
+        "flask",
+        "job-tracking"
+    ],
+    "website": "https://github.com/yourusername/placement-tracker",
+    "repository": "https://github.com/yourusername/placement-tracker",
+    "success_url": "/",
+    "env": {
+        "SECRET_KEY": {
+            "description": "A secret key for the Flask application",
+            "generator": "secret"
+        }
+    },
+    "addons": [
+        "heroku-postgresql"
+    ]
+} 

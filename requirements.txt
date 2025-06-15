@@ -1,0 +1,13 @@
+flask
+flask-sqlalchemy
+flask-bcrypt
+python-dotenv
+SQLAlchemy
+Werkzeug
+Jinja2
+click
+blinker
+bcrypt
+gunicorn==20.1.0
+wheel==0.40.0
+setuptools==67.7.2 
